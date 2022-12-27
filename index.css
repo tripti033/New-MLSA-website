@@ -1,0 +1,71 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    background: #002E94;
+  }
+  #pagetransition {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  #bg {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: url(http://voice-vic.cust.good-morning.no/wp-content/uploads/2013/05/03U0096.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  .square {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .square.black {
+    background: #213a62;
+    top: -50%;
+    left: -20%;
+    z-index: 3;
+  }
+  .square.white {
+    background: #fff;
+    height: 200%;
+    right: -50%;
+    top: -130%;
+    z-index: 5;
+  }
+  .square.gold {
+    background: #0178D2;
+    right: -20%;
+    bottom: -50%;
+    z-index: 4;
+  }
+  .square.grey {
+    background: #EEF1FF;
+    height: 200%;
+    left: -50%;
+    bottom: -130%;
+    z-index: 4;
+  }
+  .vic-gb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 200px;
+  }
+  
