@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="events.css" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="box1"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="azure.jpg" alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Azure Community Day </span>
+                            </div>
+                            <div class="about">
+                                <p>Reskill in collaboration with Azure Developer Community supported by Microsoft Azure invited students to be a part of the Azure Community Day, Gurugram Chapter on 12 November 2022. Our mentors from various branches helped the juniors learn, and network by sharing their expertise.</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="swiper-slide card">
+                        <div class="box2"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="step.jpg" alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Google STEP Intership session</span>
+                            </div>
+
+                            <div class="about">
+                                <p>On the 1st december 2022, Microsoft Learn Student Ambassador Student Chapter - Indira Gandhi Delhi Technical University for Women hosted the much-awaited offline session on Google Step Intern Program. The session was based on learning more about how to ace this prestigious opportunity by Google.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="box3"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="we.jpg" alt="">
+                            </div>
+                          
+                            <div class="name-profession">
+                                <span class="name">WE Scholarship Session </span>
+                               
+                            </div>
+                            <div class="about">
+                                <p>On 7th December 2022, Microsoft Learn Student Ambassador Student Chapter - IGDTUW hosted the much-awaited offline session on the women engineers scholarship programme. The session was based on learning about how to ace this prestigious opportunity by TalentSprint and Google.</p>
+                            </div>
+                        </div>
+                    </div>
+
+            <div class="swiper-slide card">
+                <div class="box4"></div>
+                <div class="card-content">
+                    <div class="image">
+                        <img src="offline_orien.jpg" alt="">
+                    </div>
+                  
+                    <div class="name-profession">
+                        <span class="name">Offline orientation</span>
+                    </div>
+                    <div class="about">
+                        <p>On the 18th of November 2022, Microsoft Learn Student Ambassador Student Chapter - Indira Gandhi Delhi Technical University for Women hosted its first offline, in-campus event, which was an orientation of the society for the freshers who recently joined the university and was held in the Auditorium of the campus.</p>
+                    </div>
+                </div>
+            </div>
+
+    <div class="swiper-slide card">
+        <div class="box5"></div>
+        <div class="card-content">
+            <div class="image">
+                <img src="online_orien.jpeg" alt="">
+            </div>
+            <div class="name-profession">
+                <span class="name">Online orientation </span>
+            </div>
+            <div class="about">
+                <p>Microsoft Student Club IGDTUW organized its online orientation on 9th November 2022 for all the 2nd year and 3rd year students to guide them along their smooth journey in the careers of their choice and to lead them towards their goals/future aspirations.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- initializing swiper slider -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 2,
+              spaceBetween: 10,
+              grabCursor: true,
+              autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                },
+              slidesPerGroup: 1,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+            </script>
+    </body>
+</html>
