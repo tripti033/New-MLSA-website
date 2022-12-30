@@ -1,11 +1,11 @@
-body{
+/*body{
     margin:0;
     padding:0;
     position:relative;
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI";
     overflow-x: hidden;
- }
- .container{
+ }*/
+ /* .container_about{
     width:75%; 
  }
  .about{
@@ -13,8 +13,8 @@ body{
     width:75%;
     height:auto;
     background-color:#fff;   
- }
- .about .left{
+ } */
+ /*.about .left{
     padding: 3% 4%;
     width:35%;
     display:inline-block;
@@ -30,17 +30,17 @@ body{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
- }
- .about .right{
+ }*/
+ /*.about .right{
     width:50%;
     padding:4% 5%;
     display:inline-block;
- }
- .about .right img{
+ }*/
+ /*.about .right img{
     width:225%;
-    padding:4% 90%;
- }
- .about .left h1{
+    padding:4% ;
+ }*/
+ /* .about .left h1{
     color: rgb(0, 120, 212);
     font-size:25px;
  }
@@ -66,6 +66,6 @@ body{
       opacity: 1;
       transform: none;
     }
- }
+ } */
 
  
