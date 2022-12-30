@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&family=K2D:wght@100&family=Teko:wght@300&display=swap');
 
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,8 +12,8 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #f2f2f2;
-}
-.card{
+}*/
+.card_team{
     position: relative;
     background-color: #fff;
     border-radius: 20px;
@@ -22,7 +22,7 @@ body{
     margin: 20px 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-.card .card-content{
+.card_team .card_team-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,15 +33,15 @@ body{
 .swiper{
     width: 950px;
 }
-section{
+/*section{
     position: relative;
     width: 450px;
     width: 1075px;
     display: flex;
     align-items: center;
-}
+}*/
 
-section .card .image{
+section .card_team .image{
     height: 140px;
     width: 140px;
     border-radius: 50%;
@@ -49,14 +49,14 @@ section .card .image{
     background: #fff;
     box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.25);
 }
-section .card .image img{
+section .card_team .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #fff;
 }
-.box1{
+.box1_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -64,7 +64,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.box2{
+.box2_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -72,7 +72,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.box3{
+.box3_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -80,7 +80,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.box4{
+.box4_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -88,7 +88,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.box5{
+.box5_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -96,7 +96,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.box6{
+.box6_t{
     position: absolute;
     width: 100%;
     height: 30%;
@@ -104,7 +104,7 @@ section .card .image img{
     background: linear-gradient(106.32deg, #007bff 14.23%,
     rgba(255, 25, 25, 0) 139.97%);
 }
-.card .media-icons{
+.card_team .media-icons{
     position: absolute;
     top: 10px;
     right: 20px;
@@ -112,17 +112,17 @@ section .card .image img{
     flex-direction: column;
     align-items: center;
 }
-.card .media-icons i{
+.card_team .media-icons i{
     color: #fff;
     opacity: 0.7;
     margin-top: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.card .media-icons i:hover{
+.card_team .media-icons i:hover{
     opacity: 1;
 }
-.card .name-profession{
+.card_team .name-profession{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,27 +138,27 @@ section .card .image img{
     font-weight: 500;
     color: #333;
 }
-.card .rating{
+.card_team .rating{
     display: flex;
     align-items: center;
     margin-top: 18px;
 }
 
-section .card .about{
+section .card_team .about{
     display: flex;
     text-align: center;
     color: #444;
     margin-top: 45px;
     margin-bottom: 5px; 
 }
-.card .button{
+.card_team .button{
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.card .button button{
+.card_team .button button{
     outline: none;
     border: none;
     color: #fff;
@@ -168,7 +168,7 @@ section .card .about{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.card .button button:hover{
+.card_team .button button:hover{
     opacity: 0.8;
 }
 .swiper-pagination{
