@@ -20,6 +20,7 @@ body{
 .home_para h1{
     font-size: 2rem;
     font-weight: bolder;
+    color:rgb(5, 100, 244);
 }
 .home_para
 {font-size: 1.2rem;
@@ -28,23 +29,23 @@ body{
     height: 12rem;
     border-radius:3px;
     margin-left:24rem;
-    opacity:0.7;
-    font-weight: bold;
+    opacity:0.9;
+    
 }
 @media(max-width:1024px)
 {.home{
     height: 100vh;
     background: url("ms4.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2.2rem;
+    background-size: contain;
+    margin-top: 2rem;
     margin-left: 0;
     margin-right: 0;
 }
     .head_home {
-    color:white;
-    padding-top:19rem;
-    font-size:2rem;
+    color:black;
+    padding-top:15rem;
+    font-size:1.5rem;
     font-weight: bolder;
 }
 .home_para h1{
