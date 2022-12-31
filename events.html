@@ -9,10 +9,11 @@
         <link href="events.css" rel="stylesheet">
     </head>
     <body>
+        <h1 class="about_head">Events</h1>
         <section>
             <div class="swiper mySwiper container">
                 <div class="swiper-wrapper content">
-                    <div class="swiper-slide card">
+                    <div class="swiper-slide card " style="height:600px;">
                         <div class="box1"></div>
                         <div class="card-content">
                             <div class="image">
@@ -27,7 +28,7 @@
                         </div>
                     </div> 
 
-                    <div class="swiper-slide card">
+                    <div class="swiper-slide card " style="height:600px;">
                         <div class="box2"></div>
                         <div class="card-content">
                             <div class="image">
@@ -43,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide card">
+                    <div class="swiper-slide card "style="height:600px;">
                         <div class="box3"></div>
                         <div class="card-content">
                             <div class="image">
@@ -60,7 +61,7 @@
                         </div>
                     </div>
 
-            <div class="swiper-slide card">
+            <div class="swiper-slide card " style="height:600px;">
                 <div class="box4"></div>
                 <div class="card-content">
                     <div class="image">
@@ -76,7 +77,7 @@
                 </div>
             </div>
 
-    <div class="swiper-slide card">
+    <div class="swiper-slide card " style="height:600px;">
         <div class="box5"></div>
         <div class="card-content">
             <div class="image">
@@ -103,8 +104,10 @@
 
         <!-- initializing swiper slider -->
         <script>
+            if(window.innerWidth>1024)
+            {
             var swiper_event = new Swiper(".mySwiper", {
-              slidesPerView: 2,
+              slidesPerView: 3,
               spaceBetween: 10,
               grabCursor: true,
               autoplay: {
@@ -124,6 +127,32 @@
                 prevEl: ".swiper-button-prev",
               },
             });
+        }
+            else
+            {
+                var swiper_event = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 10,
+              grabCursor: true,
+              autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                },
+              slidesPerGroup: 1,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+            }
+           
             </script>
     </body>
 </html>

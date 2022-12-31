@@ -13,10 +13,10 @@ body{
     height: 100vh;
     background-color: #f2f2f2;
 }  */
+
 .card{
     position:relative; 
     background-color: #fff;
-    height: 460px;
     width: 400px;
     margin: 10px 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -33,11 +33,11 @@ body{
     width: 100%;
 }
 section{
-   /* position: relative;
+    position: relative;
     
-    width: 1075px;
+    width: 100%;
     display: flex;
-    align-items: center;*/
+    align-items: center;
 }
 
 /* section .card .image{
