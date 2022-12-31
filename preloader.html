@@ -107,9 +107,11 @@ function closeNav() {
 
  <div id="includedContent"></div>
 <br>
+<div id="includeAbout"></div>
+<br>
+<br>
  <div id="includeGoal"></div>
  <br>
- <div id="includeAbout"></div>
  <br>
  <div id="includeEvent"></div>
  <br>
@@ -123,7 +125,7 @@ function closeNav() {
 
 
       
-    <div id="bg"></div>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.8/TweenMax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
@@ -143,6 +145,52 @@ function closeNav() {
 
       });
       </script>
-  
+            <script>
+              var swiper_event = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                grabCursor: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                  },
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+              </script>
+        <script>
+          var swiper_team = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              grabCursor: true,
+              autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                },
+              slidesPerGroup: 3,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>  
+     
 </body>
 </html>

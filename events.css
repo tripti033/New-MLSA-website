@@ -13,9 +13,6 @@ body{
     height: 100vh;
     background-color: #f2f2f2;
 }  */
-body,html{
-   
-}
 .card{
     position:relative; 
     background-color: #fff;
@@ -43,18 +40,19 @@ section{
     align-items: center;*/
 }
 
-section .card .image{
+/* section .card .image{
     height: 200px;
     width: 400px;
     padding: 2px;
     background: #fff;
     box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.25);
-}
+} */
 section .card .image img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    border: 3px solid #fff;
+    object-fit: contain;
+    padding: 0px;
+    /* border: 3px solid #fff; */
 }
 .box1{
     position: absolute; 
@@ -164,14 +162,14 @@ section .card .about{
 .card .button button:hover{
     opacity: 0.8;
 }
-.swiper-pagination{
+/*.swiper-pagination{
      position: absolute; 
-    top: 510px;
-}
+  
+}*/
 .swiper-pagination-bullet{
     height: 15px;
     width: 15px;
-    background: #f2f2f2;
+   
 }
 .swiper-button-next, .swiper-button-prev{
     opacity: 0.7;
