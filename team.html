@@ -11,6 +11,7 @@
            
     </head>
     <body>
+        <h1 class="about_head">Meet Our Team</h1>
         <section>
             <div class="swiper mySwiper container">
                 <div class="swiper-wrapper content">
@@ -137,25 +138,27 @@
 </div>
 </div>
 
-            <div class="swiper-button-next"></div>
+            <!-- <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div> -->
         </section>
 
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
         <!-- initializing swiper slider -->
         <script>
-            var swiper = new Swiper(".mySwiper", {
+            if(window.innerWidth>1024)
+            {
+            var swiper_event = new Swiper(".mySwiper", {
               slidesPerView: 3,
-              spaceBetween: 30,
+              spaceBetween: 10,
               grabCursor: true,
               autoplay: {
                   delay: 2500,
                   disableOnInteraction: false,
                   pauseOnMouseEnter: true,
                 },
-              slidesPerGroup: 3,
+              slidesPerGroup: 1,
               loop: true,
               loopFillGroupWithBlank: true,
               pagination: {
@@ -167,6 +170,32 @@
                 prevEl: ".swiper-button-prev",
               },
             });
+        }
+            else
+            {
+                var swiper_event = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 10,
+              grabCursor: true,
+              autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                },
+              slidesPerGroup: 1,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+            }
+           
             </script>
     </body>
 </html>

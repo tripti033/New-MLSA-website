@@ -14,9 +14,14 @@
          display:inline-block;
          border:1px solid white;
          border-radius:30px;
-         width:70%;
-         margin-left:10rem;
+         width:90%;
+         height:30%;
+         margin-left:8rem;
          margin-top:10rem;
+         background-color: white;
+         box-shadow: inset;
+         padding:2rem;
+
    
       }
       .left h1{
@@ -25,27 +30,78 @@
       }
       .right{
          display:inline-block;
+         margin-left:-7rem;
+         z-index:-3;
+
+
+      }
+      .right img{
+         display:inline-block;
+         width:80%;
+         border-radius:30px;
+
+      }
+      .about_head{
+         text-align: center;
+         margin-top:3rem;
+         font-size:3rem;
+
+      }
+      @media(max-width:1024px)
+      {
+         .about{
+      display:flex;
+
+     }
+      .left{
+         display:block;
+         border:1px solid white;
+         border-radius:30px;
+         width:auto;
+         height:auto;
          margin-left:0rem;
+         margin-top:12.5rem;
+         background-color: white;
+         box-shadow: inset;
+         padding:2rem;
+
+   
+      }
+      .left h1{
+         font-size:1.5rem;
+
+      }
+      .right{
+         display:inline-block;
+         margin-left:-20rem;
+         z-index:-3;
+         margin-right:3rem;;
+
 
       }
       .right img{
          display:inline-block;
          width:100%;
+         border-radius:30px;
+
       }
-      
+      .about_head{
+         text-align: center;
+         margin-top:3rem;
+         font-size:3rem;
+
+      }
+      }
    </style>
       
 </head>
 <body>
-    <nav></nav>  
-<div class="header">
 
-</div>
 
 <div class="container_about">
-   
+   <h1 class="about_head">About Us</h1>
    <div class="about">
-      <div class="left">
+      <div class="left" data-aos="fade-right">
          <h1>We are here, to be the perfect guidance you need to ace the engineering journey you are on!</h1>
          
          <p>We are the MICROSOFT LEARN STUDENT AMBASSADOR STUDENT CHAPTER, your one stop spot for all the amazing sessions and events. This is where you can grow by learning from the mistakes, experiences, success and failure of the experts, your seniors, and peers. We will guide and make you ready for whatever comes along.
@@ -54,13 +110,17 @@
 
       </div>
       <div class="right">
-         <img src="assest\IMG20221201123954.jpg">
+         <img src="./about.jpg">
       </div>
      
       <div class="clear"></div>
    </div>
    </div>
    
-
+   <script>
+      AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
      
 </body>
+</html>
