@@ -272,3 +272,20 @@ visibility: hidden;
 
 
 /*social media end*/
+
+
+
+@media screen and (max-width: 600px){
+ 
+
+#includeAbout{
+ margin-top:100%}
+}
+
+
+@media screen and (max-width: 350px){
+ 
+
+#includeAbout{
+ margin-top:150%}
+}

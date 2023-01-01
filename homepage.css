@@ -1,0 +1,394 @@
+.h_first {
+    font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 4.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 1.12em;
+    border: none;
+
+  }
+
+  .h_second {
+    top: 70%;
+    left: 15%;
+    border: none;
+    width: 100%;
+    background-color: white;
+    height: 30%;
+    border: none;
+  }
+
+  .h_mid {
+    width: 0%;
+  }
+
+  .h_second-one {
+    font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 120, 212);
+    display: inline;
+    line-height: 28px;
+    border: none;
+    margin-bottom: 10px;
+
+  }
+
+  .h_second-two {
+    font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(50, 49, 48);
+    display: inline;
+    line-height: 28px;
+  }
+
+  .h_second-three {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+  }
+
+  .h_box1 {
+
+    animation-name: harry2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+  }
+/* 
+
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+    }
+
+    100% {
+      top: 40%;
+    }
+
+  } */
+
+
+  .h_box2 {
+
+    animation-name: harry1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+  }
+
+/* 
+  @keyframes harry1 {
+    0% {
+      top:70%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:70%;
+        left: 16%;
+    }
+
+
+  } */
+
+
+  
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+      /* left:0px; */
+    }
+
+    100% {
+      top: 40%;
+      /* left: 250px; */
+    }
+
+  }
+
+
+
+  @keyframes harry1 {
+    0% {
+      top:70%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:70%;
+        left: 10%;
+    }
+  }
+  @media (max-width: 1024px) {
+      
+  .h_first {
+    
+    font-size: 3.5rem;
+    
+
+  }
+
+  .h_second {
+    top:65%;
+    left: 15%;
+    border: none;
+    width: 85%;
+    background-color: white;
+    height: 35%;
+    border: none;
+  }
+
+  .h_second-two {
+    font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(50, 49, 48);
+    display: inline;
+    line-height: 28px;
+  }
+
+  .h_second-three {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+  }
+
+
+
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+      /* left:0px; */
+    }
+
+    100% {
+      top: 40%;
+      /* left: 250px; */
+    }
+
+  }
+
+
+
+  @keyframes harry1 {
+    0% {
+      top:68%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:68%;
+        left: 16%;
+    }
+
+
+  }
+
+  }
+
+  @media (max-width: 900px) {
+      
+  .h_first {
+    
+    font-size: 2.3rem;
+    
+
+  }
+
+  .h_second {
+    top:100%;
+    left: 0%;
+
+    width: 100%;
+    background-color: white;
+    height: 45%;
+    border: none;
+  }
+
+  .h_second-three {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+  }
+
+
+
+
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+      /* left:0px; */
+    }
+
+    100% {
+      top: 32%;
+      /* left: 250px; */
+    }
+
+  }
+
+
+
+
+  @keyframes harry1 {
+    0% {
+      top:60%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:60%;
+        left: 10%;
+    }
+
+
+  }
+
+  }
+
+  @media (max-width: 600px) {
+      
+  .h_first {
+    
+    font-size: 1.2rem;
+    
+
+  }
+
+.h_mid{
+width: 0%;
+}
+  .h_second {
+    top:100%;
+    left: 0%;
+
+    width: 100%;
+    background-color: white;
+    height: 155%;
+    border: none;
+  }
+
+  .h_second-three {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+  }
+
+
+
+
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+      /* left:0px; */
+    }
+
+    100% {
+      top: 70%;
+      /* left: 250px; */
+    }
+
+  }
+
+
+
+  @keyframes harry1 {
+    0% {
+      top:100%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:100%;
+        left: 0%;
+    }
+
+
+  /* }
+  .card1{
+    height: 200%;
+  } */
+ 
+  }
+  
+/* 
+  body{
+    width:100vw;
+   height:100vh;
+ }  */
+  }
+ .card1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  margin:  0;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+@media (max-width: 350px){
+  
+  .h_second {
+    top:100%;
+    left: 0%;
+
+    width: 100%;
+    background-color: white;
+    height: 250%;
+    border: none;
+  }
+
+  .h_second-three {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+  }
+
+
+
+
+  @keyframes harry2 {
+    0% {
+      top: 0%;
+      /* left:0px; */
+    }
+
+    100% {
+      top: 45%;
+      /* left: 250px; */
+    }
+
+  }
+
+
+
+  @keyframes harry1 {
+    0% {
+      top:100%;
+      left: 100%;
+
+    }
+
+    100% {
+        top:100%;
+        left: 0%;
+    }
+  }
+}
