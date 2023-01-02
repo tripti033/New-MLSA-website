@@ -7,9 +7,83 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cerulean/bootstrap.min.css">
     <link href="faq.css" rel="stylesheet"> 
+    <link href="preloader.css" rel="stylesheet">
     <title>FAQ</title>
 </head>
 <body>
+
+  <!-- sidenav content -->
+    
+  <div id="mySidenav" class="sidenav">
+    <div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="navitems">
+      <a href="#">Home</a>
+      <a href="#includeAbout">About Us</a>
+      <a href="#includeGoal">Goals</a>
+      <a href="#includeEvent">Events</a>
+      <a href="#includeTeam">Team</a>
+
+    </div>
+
+
+  </div>
+  <div class="navbody">
+    <div >
+      <img class="navlogo" src="assets/MLSA_logo-transformed.png">
+    </div>
+    <div class="logo_name">
+      <span id="navname " class="navname1">MLSA-Indira Gandhi Delhi Technical University for Women</span>
+      <span id="navname" class="navname2" > MLSA-IGDTUW</span>
+
+    <!--  <script type="text/javascript">
+          if (window.innerWidth < 500 px) {
+              document.getElementById("navname").innerHTML="MLSA IGDTUW";
+          }
+      </script> -->
+    </div>
+    <!-- <div class="navButtonbg"> -->
+      <span  id="navButton"class="navButton"  onclick="openNav()">&#9776;</span>
+    <!-- </div> -->
+  </div>
+
+<!--Home-->
+
+
+  
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById('navButton').style.visibility="hidden";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById('navButton').style.visibility="visible";
+  document.body.style.backgroundColor = "rgba(0,0,0,0)";
+}
+</script>
+    <!-- sidenav content end -->
+
+    <!-- social media -->
+    <div class="s-media">
+    <a href="#" class="s-item facebook">
+        <span class="fa fa-facebook"></span>
+    </a>
+    
+    <a href="#" class="s-item twitter">
+        <span class="fa fa-twitter"></span>
+    </a>
+    
+
+    <a href="#" class="s-item gplus">
+        <span class="fa fa-google-plus"></span>
+    </a>
+
+ </div>
+    <!-- social media content end --> 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">FAQ</h1>
@@ -91,7 +165,68 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <img src="https://miro.medium.com/max/1200/1*fMCdGCokXoh8CECCD7j9Og.png" alt="logo" style="width:100px; height:100px;">
+            
+          </div>
+          <div class="col">
+            <h3 style="color:white">Address 
+            </h3>
+            <p>IGDTUW</p>
+            <p>Delhi-110006</p>
+            <p>India</p>
       
+         
+      
+      
+      
+         
+      
+      
+          </div>
+      
+          <div class="col">
+            <h3 style="color:white">Links
+            </h3>
+            <a href="event.html"><p>Events</p></a>
+            <a href="team.html"><p>Our Team</p>
+            <a href="faq.html"><p>FAQ</p></a>
+      
+         
+      
+      
+      
+            <p>Contact Us</p>
+            <a href="#"><p>About</p></a>
+      
+      
+          </div>
+      
+          
+          <div class="col">
+      
+            <h3 style="color:white"> Our Newsletter 
+      
+      
+            </h3>
+            <form>
+              <i class="far fa-envelope"></i>
+              <input type="email" Placeholder="Enter your email address" required="">
+              <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+              
+             <a href="https://twitter.com/IgdtuwMsc"> <i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/msc.igdtuw/"><i class="fab fa-instagram"></i></a>
+             <a href="https://www.linkedin.com/company/microsoft-student-chapter-igdtuw/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">MLSA-IGDTUW © 2022 - All Rights Reserved</p>
+      </footer>
       <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
       <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
