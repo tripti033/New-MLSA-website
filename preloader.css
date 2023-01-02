@@ -278,20 +278,20 @@ visibility: hidden;
 
 
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
  
 
 #includeAbout{
  margin-top:100%}
-}
+} */
 
 
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
  
 
 #includeAbout{
  margin-top:150%}
-}
+} */
 
 footer {
   width: 100%;
