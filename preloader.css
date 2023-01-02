@@ -130,7 +130,8 @@
   cursor:pointer;
   z-index:998;
   position: fixed;
-  top:5px;
+  top:4vh;
+  transform: translate(-50%,-50%);
   right:5%;
 
 
@@ -145,13 +146,20 @@
   align-content: center;
   display: flex;
   flex-direction: row;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid lightgrey;
 /*  flex-wrap: wrap;*/
   
 }
 .navlogo{
   height: 35px;
   width: 35px;
-  margin-left: 20px;
+  top:4vh;
+  transform: translate(-50%,-50%);
+  margin-left: 40px;
+  position: fixed;
+  z-index: 10;
 }
 .logo_name{
 /*  right: 60px;*/
@@ -163,8 +171,9 @@
 .navname1{
   position: fixed;
   right:7% ;
-  top:15px;
-  margin-right:10px;
+  top:4vh;
+  transform: translate(0%,-50%);
+  margin-right:30px;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,8 +183,9 @@
   visibility: hidden;
   position: fixed;
   right:10% ;
-  top:15px;
-  margin-right:10px;
+  top:4vh;
+  transform: translate(0%,-50%);
+  margin-right:30px;
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
