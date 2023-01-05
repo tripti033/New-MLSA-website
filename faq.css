@@ -209,3 +209,6 @@ footer {
       flex-basis: 100%;
     }
   }
+  .panel-body{
+    color:#023650;
+  }

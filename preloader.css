@@ -450,6 +450,7 @@ hr {
   animation: moving 2s linear infinite;
 }
 
+
 @keyframes moving {
   0% {
     left: -20px;
@@ -463,11 +464,14 @@ hr {
   footer {
     bottom: unset;
   }
-  .col {
+  /* .col {
     flex-basis: 100%;
-  }
+  } */
 
   .col:nth-child(2), .col:nth-child(3) {
     flex-basis: 100%;
+  }
+  .row{
+    padding-left:5rem;
   }
 }

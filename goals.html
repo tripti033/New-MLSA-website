@@ -59,6 +59,9 @@
   object-fit: cover;
   padding: 10px;
 }
+.card-content{
+  padding-top: 3rem;
+}
 
 .card-content h4 {
   padding: 8px 0px;
@@ -95,6 +98,27 @@ line-height: 17px;
 	100%{
 		transform:scale(1.0);
 	}
+}
+@media(max-width:1024px)
+{
+  .card-wrapper {
+  display:flex;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 25%;
+	border-radius: 5px;
+  margin:5px auto;
+	-webkit-animation:scaledown 0.3s linear;
+	-moz-animation:scaledown 0.3s linear;
+	animation:scaledown 0.2s linear;
+	transform-origin:50% 50%;
+	animation-fill-mode: forwards;
+  background-color: white;
+  height: 130px;
+  width:330px;
+  margin-bottom:3rem;
+  margin-top:1rem;
+}
 }
     </style>
 </head>
