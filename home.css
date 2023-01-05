@@ -36,11 +36,11 @@ body{
 }
 @media(max-width:1024px)
 {.home{
-    height: 100vh;
+    height: auto;
     /* background: url("ms4.jpg"); */
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 0;
     margin-right: 0;
 }
@@ -54,11 +54,11 @@ body{
     font-size: 1.6rem;
     font-weight: bolder;
 }
-.home_para
+.home_para 
 {font-size: 1.5rem;
  margin-top:2rem;
     width:100vw;
-    height: 12rem;
+    height: auto;
     border-radius:3px;
     margin-left: 0;
 
