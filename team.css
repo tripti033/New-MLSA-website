@@ -150,6 +150,7 @@ section .card_team .about{
     color: #444;
     margin-top: 45px;
     margin-bottom: 5px; 
+    font-size: 1.4rem;
 }
 .card_team .button{
     width: 100%;
