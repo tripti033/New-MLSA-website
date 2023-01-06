@@ -256,7 +256,7 @@ visibility: hidden;
     width: 30px;
     height: 30px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
 /*    line-height: 60px;*/
     text-align: center;
@@ -279,11 +279,22 @@ visibility: hidden;
     
     transition:all linear 0.2s ;
 }*/
-.facebook {background-color: #305891;
+.facebook {background-color: #0077b5;
  
 }
+.linkedin{
+  background-color: #0077b5;
+}
+.gplus{
+  
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 .twitter {background-color: #3AAFD6;}
-.gplus {background-color: #F8694D; }
+/* .gplus {background-color: #F8694D; } */
 .print {background-color: #7CB0A4;}
 /*.sm-collapse{left: -60px; }*/
 
