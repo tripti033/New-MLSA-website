@@ -29,6 +29,7 @@ body{
     position: relative;
     z-index: 100;
 }
+
 .swiper{
     width: 100%;
 }
@@ -140,7 +141,7 @@ section .card .about{
     display: flex;
     text-align: center;
     color: #444;
-    margin-top: 45px;
+    margin-top:2rem;
     margin-bottom: 5px; 
 }
 .card .button{
