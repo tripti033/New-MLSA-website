@@ -350,9 +350,11 @@ footer {
   flex-basis: 15%;
 }
 
+
 .logo {
   width: 100px;
   margin-bottom: 100px;
+  margin-left:3rem;
 }
 
 .col h3 {
@@ -441,6 +443,7 @@ hr {
 
 .copyright {
   text-align: center;
+  color:white;
 }
 
 .underline {
@@ -489,4 +492,19 @@ hr {
   .row{
     padding-left:5rem;
   }
+}
+@media(max-width:1024px)
+{
+  .navlogo{
+    height:4rem;
+    width:4rem;
+    top:3.5vh;
+  }
+ .logo{
+  margin-left:-3rem;
+  margin-bottom:0rem;;
+ }
+ .col h3{
+  margin-bottom:1rem;
+ }
 }

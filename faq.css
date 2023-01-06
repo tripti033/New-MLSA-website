@@ -55,7 +55,7 @@ footer {
   
   .row {
     width: 85%;
-    margin: auto;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -164,6 +164,7 @@ footer {
   
   .copyright {
     text-align: center;
+    color:white;
   }
   
   .underline {
@@ -237,4 +238,5 @@ footer {
       align-items: center;
       padding:0.7rem;
     }
+ 
   }
