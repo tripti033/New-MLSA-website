@@ -14,6 +14,8 @@ body{
 }
 .head_home {
     color: white;
+    -webkit-text-stroke: 1px black;
+    margin: 0 30px;
     padding-top: 42rem;
     font-size: 4rem;
     font-weight: bolder;
@@ -24,29 +26,30 @@ body{
     color:rgb(5, 100, 244);
 }
 .home_para {
+    padding: 20px;
     font-size: 2rem;
     background-color: white;
     width: 100rem;
     height: 13rem;
     border-radius: 3px;
-    margin-left:54rem;
-
+    margin-left:40rem;
+    
     opacity: 0.9;
     margin-top: 8rem;
 }
 @media(max-width:1024px)
 {.home{
-    height: 100vh;
+    height: auto;
     /* background: url("ms4.jpg"); */
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 0;
     margin-right: 0;
 }
     .head_home {
     color:black;
-    padding-top:27rem;
+    padding-top:22.5rem;
     font-size:2.5rem;
     font-weight: bolder;
 }
@@ -54,11 +57,11 @@ body{
     font-size: 1.6rem;
     font-weight: bolder;
 }
-.home_para
+.home_para 
 {font-size: 1.5rem;
  margin-top:2rem;
     width:100vw;
-    height: 12rem;
+    height: auto;
     border-radius:3px;
     margin-left: 0;
 

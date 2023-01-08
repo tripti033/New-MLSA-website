@@ -85,7 +85,7 @@
   z-index: 998;
   top: 0;
   right: 0;
-  background-color: #ffffff;
+  background-color: #305891;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -93,16 +93,18 @@
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 70px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  font-size:30px;
+  text-decoration: underline;
+  color:white;
 }
 
 .sidenav .closebtn {
@@ -153,8 +155,8 @@
   
 }
 .navlogo{
-  height: 35px;
-  width: 35px;
+  height:6rem;
+  width: 6rem;
   top:4vh;
   transform: translate(-50%,-50%);
   margin-left: 40px;
@@ -175,6 +177,7 @@
   transform: translate(0%,-50%);
   margin-right:30px;
   font-weight: 600;
+  font-size: large;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -187,6 +190,7 @@
   transform: translate(0%,-50%);
   margin-right:30px;
   font-weight: 700;
+  font-size:medium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -195,7 +199,7 @@
 
 .navitems{
   display: flex;
-  align-items: center;
+  align-items: left;
   align-content: center;
   flex-direction: column;
 }
@@ -252,7 +256,7 @@ visibility: hidden;
     width: 30px;
     height: 30px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
 /*    line-height: 60px;*/
     text-align: center;
@@ -275,11 +279,22 @@ visibility: hidden;
     
     transition:all linear 0.2s ;
 }*/
-.facebook {background-color: #305891;
+.facebook {background-color: #0077b5;
  
 }
+.linkedin{
+  background-color: #0077b5;
+}
+.gplus{
+  
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 .twitter {background-color: #3AAFD6;}
-.gplus {background-color: #F8694D; }
+/* .gplus {background-color: #F8694D; } */
 .print {background-color: #7CB0A4;}
 /*.sm-collapse{left: -60px; }*/
 
@@ -335,9 +350,11 @@ footer {
   flex-basis: 15%;
 }
 
+
 .logo {
   width: 100px;
   margin-bottom: 100px;
+  margin-left:3rem;
 }
 
 .col h3 {
@@ -426,6 +443,7 @@ hr {
 
 .copyright {
   text-align: center;
+  color:white;
 }
 
 .underline {
@@ -450,6 +468,7 @@ hr {
   animation: moving 2s linear infinite;
 }
 
+
 @keyframes moving {
   0% {
     left: -20px;
@@ -463,11 +482,29 @@ hr {
   footer {
     bottom: unset;
   }
-  .col {
+  /* .col {
     flex-basis: 100%;
-  }
+  } */
 
   .col:nth-child(2), .col:nth-child(3) {
     flex-basis: 100%;
   }
+  .row{
+    padding-left:5rem;
+  }
+}
+@media(max-width:1024px)
+{
+  .navlogo{
+    height:4rem;
+    width:4rem;
+    top:3.5vh;
+  }
+ .logo{
+  margin-left:-3rem;
+  margin-bottom:0rem;;
+ }
+ .col h3{
+  margin-bottom:1rem;
+ }
 }

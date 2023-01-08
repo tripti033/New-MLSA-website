@@ -14,7 +14,7 @@ body{
     background-color: #f2f2f2;
 }*/
 .card_team{
-    position: relative;
+    /* position: relative; */
     background-color: #fff;
     border-radius: 20px;
     height: 460px;
@@ -150,6 +150,7 @@ section .card_team .about{
     color: #444;
     margin-top: 45px;
     margin-bottom: 5px; 
+    font-size: 1.4rem;
 }
 .card_team .button{
     width: 100%;
@@ -189,4 +190,10 @@ section .card_team .about{
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
     color: #007bff;
+}
+@media(max-width:1024px)
+{
+    .swiper{
+        width:300px;
+    }
 }
