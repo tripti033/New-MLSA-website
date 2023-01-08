@@ -27,7 +27,7 @@ body {
 	animation-fill-mode: forwards;
   background-color: white;
   height: 130px;
-  width:330px;
+  width:334px;
 }
 
 .card-wrapper:hover {
@@ -64,7 +64,7 @@ font-size: 13px;
 font-weight: 400;
 color: rgb(51, 51, 51);
 display: block;
-line-height: 17px;
+line-height: 18px;
 }
 
 @keyframes scale{
