@@ -65,7 +65,9 @@ font-weight: 400;
 color: rgb(51, 51, 51);
 display: block;
 line-height: 18px;
+padding-right: 20px;
 }
+
 
 @keyframes scale{
 	0%{
